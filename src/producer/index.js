@@ -21,6 +21,7 @@ const setChannel = ch => ({
         const qtde = 1000
         for(let i = 0 ; i < qtde ; i++) {
             await ch.publish(exchange, '', Buffer.from(`foo=bar`))
+            await ch.waitForConfirms()
         }
         console.log(`Pronto: ${qtde}`)
         process.exit(0)

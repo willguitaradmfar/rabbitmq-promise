@@ -28,7 +28,7 @@
   const getChannel = async () => {
     const client = await getClient()
   
-    return client.createChannel()
+    return client.createConfirmChannel()
   }
   
   const getCredencialsAMQP = () => {
