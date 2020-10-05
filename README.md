@@ -1,12 +1,8 @@
-# POD Promise no consumo de mensagens
+# Promise no consumo de mensagens
 
-## Table of Contents
+## Sobre
 
-* Validação de promise com consumidor amqplib
-
-## About
-
-Validação da biblioteca amqplib para Node.js
+* Validação de promise no consumo de mensagens amqplib
 
 ## Requirement
 
