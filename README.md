@@ -8,6 +8,13 @@
 
 * Node.js v8 ou superior
 
+
+## RabbitMQ UP
+
+```
+docker-compose -f docker/docker-compose.yml up -d 
+```
+
 ## Install
 
 ```
