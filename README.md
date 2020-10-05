@@ -1,6 +1,6 @@
 # Promise no consumo de mensagens
 
-## Sobre
+## About
 
 * Validação de promise no consumo de mensagens amqplib
 
