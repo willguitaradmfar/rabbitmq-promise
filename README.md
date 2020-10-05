@@ -17,9 +17,11 @@ $ npm install
 ## Usage
 
 ```
-$ node src/index.js producer
+// Produzindo mensagens
+npm run producer
 
-$ node src/index.js consumer
+// Consumindo mensagens
+npm run consumer
 
 ```
 

@@ -18,8 +18,11 @@ module.exports = async ({ queue = `promise-consumer` }) => {
 
 const setChannel = ch => ({ 
     sendMessagesToExchange: async exchange => {
-        for(let i = 0 ; i < 1000 ; i++) {
+        const qtde = 1000
+        for(let i = 0 ; i < qtde ; i++) {
             await ch.publish(exchange, '', Buffer.from(`foo=bar`))
         }
+        console.log(`Pronto: ${qtde}`)
+        process.exit(0)
     }
 })
